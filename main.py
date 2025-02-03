@@ -855,7 +855,6 @@ def generation():
     button_open = Button(top4, text="Open Capsule", command=open_capsule,bg="navy",fg="white",font=("Times New Roman", 10,"bold"))
     button_open.place(x=650, y=600)
     top4.mainloop()
-generation()
 
 
 
@@ -1372,7 +1371,6 @@ def travel():
     open_capsule_button.place(x=780, y=570)
 
     top6.mainloop()
-travel()
 
 
 
