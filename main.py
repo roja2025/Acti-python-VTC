@@ -63,7 +63,7 @@ def welcome():
      t4="""
           For significant life events, The Virtual Time Capsule for Events lets you capture milestones like weddings, birthdays, and anniversaries, creating a digital keepsake of memories to open in the future."""
      c2.create_text(640,570,text=t4, width=1200,font=("sans-sarif",12,""),fill="white",justify=LEFT)
-     bu4=Button(top1,text="Capsule for events", font=("Times New Roman", 12, "italic", "bold"), bg="#FFC107", fg="black")
+     bu4=Button(top1,text="Capsule for events",command=event, font=("Times New Roman", 12, "italic", "bold"), bg="#FFC107", fg="black")
      bu4.place(x=150,y=610)
 
      c2.create_text(150,670,text="Travel Time Capsule",font=("time new roman",18,"bold"),fill="black")
